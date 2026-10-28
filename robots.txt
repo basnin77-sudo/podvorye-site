@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://podvorye-ryadom.ru/sitemap.xml
