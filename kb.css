@@ -1,6 +1,6 @@
-@font-face{font-family:Golos;src:url(/assets/golos-400.ttf);font-weight:400;font-display:swap}
-@font-face{font-family:Golos;src:url(/assets/golos-700.ttf);font-weight:700;font-display:swap}
-@font-face{font-family:Golos;src:url(/assets/golos-800.ttf);font-weight:800;font-display:swap}
+@font-face{font-family:Golos;src:url(/assets/golos-400.woff2) format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Golos;src:url(/assets/golos-700.woff2) format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:Golos;src:url(/assets/golos-800.woff2) format('woff2');font-weight:800;font-display:swap}
 :root{--forest:#063a28;--ink:#1d2a21;--muted:#5b6760;--line:#e3e8df;--bg:#f7faf5;--card:#fff;--accent:#2e6b3f;--soft:#e3efe0}
 .pv{--forest:#5c2f14;--ink:#2b2118;--muted:#6a5b4c;--line:#ebdcc6;--bg:#f8f0e2;--accent:#8b4a23;--soft:#f3e2cf}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Golos,system-ui,sans-serif}
@@ -20,3 +20,5 @@ th{font-size:14px;color:var(--muted)}ul{padding-left:22px}li{margin:4px 0}.muted
 footer{border-top:1px solid var(--line);padding:22px 0;font-size:14px;color:var(--muted)}
 table{table-layout:fixed;overflow-wrap:anywhere}
 @media(max-width:600px){h1{font-size:27px}header .w{flex-wrap:wrap;gap:6px 16px}header nav{margin-left:0;width:100%;overflow-x:auto;white-space:nowrap;gap:14px;font-size:14px;padding-bottom:2px}td,th{padding:8px 6px;font-size:15px}.w{padding:0 14px}}
+
+header nav a{padding:10px 0}footer a{display:inline-block;padding:6px 0}a:focus-visible,input:focus-visible{outline:3px solid #e9c79a;outline-offset:3px;border-radius:6px}main a:focus-visible,input:focus-visible{outline-color:var(--accent)}::selection{background:#e9c79a;color:#3b2414}
