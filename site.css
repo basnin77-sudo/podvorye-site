@@ -3,12 +3,12 @@
 @font-face{font-family:Golos;src:url(/assets/golos-800.woff2) format('woff2');font-weight:800;font-display:swap}
 :root{--forest:#3b2414;--brown:#8b4a23;--ink:#2b2118;--muted:#6a5b4c;--line:#ebdcc6;--bg:#f8f0e2;--card:#fff;--soft:#f3e2cf;--leaf:#4f7a34}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Golos,system-ui,sans-serif}
-a{color:var(--brown)}.w{max-width:1040px;margin:0 auto;padding:0 20px}
+a{color:var(--brown)}.w{max-width:1200px;margin:0 auto;padding:0 28px}
 header{background:var(--forest);color:#fff}header .w{display:flex;align-items:center;gap:18px;padding:14px 20px}
-header a{color:#fff;text-decoration:none;font-weight:700}header nav{margin-left:auto;display:flex;gap:18px;font-size:15px}header nav a{padding:10px 0}
-.hero{background:linear-gradient(160deg,#3b2414 0%,#5c2f14 55%,#7a4a1e 100%);color:#fff;padding:56px 0 64px}
-.hero .w{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
-.hero h1{font-size:44px;line-height:1.08;margin:0 0 16px;font-weight:800}.hero p{font-size:20px;color:#f3e2cf;margin:0 0 24px}
+header a{color:#fff;text-decoration:none;font-weight:700}header .brand{display:flex;align-items:center;gap:10px;font-size:23px;font-weight:800;letter-spacing:-.01em}header .brand img{border-radius:9px}header nav{margin-left:auto;display:flex;gap:18px;font-size:15px}header nav a{padding:10px 0}
+.hero{background:linear-gradient(160deg,#3b2414 0%,#5c2f14 55%,#7a4a1e 100%);color:#fff;padding:64px 0 76px}
+.hero .w{display:grid;grid-template-columns:1.3fr .7fr;gap:56px;align-items:center}
+.hero h1{font-size:58px;line-height:1.05;letter-spacing:-.02em;margin:0 0 16px;font-weight:800}.hero p{font-size:20px;color:#f3e2cf;margin:0 0 24px}
 .wins{list-style:none;padding:0;margin:0 0 26px}.wins li{position:relative;padding-left:30px;margin:8px 0;font-size:18px;color:#f8ead6}
 .wins li:before{content:"";position:absolute;left:0;top:3px;width:22px;height:22px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Ccircle cx='11' cy='11' r='11' fill='%23e9c79a'/%3E%3Cpath d='M6.5 11.3l3 3 6-6.3' fill='none' stroke='%233b2414' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center/contain}
 .price{font-size:15px!important;color:#e9c79a!important;margin:-8px 0 18px!important}
@@ -33,5 +33,5 @@ details{background:var(--card);border:1px solid var(--line);border-radius:16px;p
 footer{border-top:1px solid var(--line);padding:26px 0;font-size:14px;color:var(--muted)}footer a{display:inline-block;padding:6px 0}
 a:focus-visible,summary:focus-visible,.btn:focus-visible{outline:3px solid #e9c79a;outline-offset:3px;border-radius:6px}main a:focus-visible,section a:focus-visible,summary:focus-visible{outline-color:var(--brown)}
 ::selection{background:#e9c79a;color:#3b2414}.btn:hover{filter:brightness(.95)}.btn.ghost:hover{background:rgba(255,255,255,.08)}
-@media(max-width:820px){.hero .w{grid-template-columns:1fr}.hero h1{font-size:31px}.wins li{font-size:17px}.hero .phone{max-width:240px}.feat{grid-template-columns:1fr}
+@media(max-width:820px){.hero .w{grid-template-columns:1fr;gap:36px}.hero h1{font-size:36px}header .brand{font-size:21px}.w{padding:0 20px}.wins li{font-size:17px}.hero .phone{max-width:240px}.feat{grid-template-columns:1fr}
 header .w{flex-wrap:wrap;gap:6px 16px}header nav{margin-left:0;width:100%;overflow-x:auto;white-space:nowrap;gap:14px;font-size:14px}.btn.ghost{margin:10px 0 0}.qr{display:none}h2{font-size:26px}section{padding:40px 0}}

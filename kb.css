@@ -21,4 +21,4 @@ footer{border-top:1px solid var(--line);padding:22px 0;font-size:14px;color:var(
 table{table-layout:fixed;overflow-wrap:anywhere}
 @media(max-width:600px){h1{font-size:27px}header .w{flex-wrap:wrap;gap:6px 16px}header nav{margin-left:0;width:100%;overflow-x:auto;white-space:nowrap;gap:14px;font-size:14px;padding-bottom:2px}td,th{padding:8px 6px;font-size:15px}.w{padding:0 14px}}
 
-header nav a{padding:10px 0}footer a{display:inline-block;padding:6px 0}a:focus-visible,input:focus-visible{outline:3px solid #e9c79a;outline-offset:3px;border-radius:6px}main a:focus-visible,input:focus-visible{outline-color:var(--accent)}::selection{background:#e9c79a;color:#3b2414}
+header .brand{display:flex;align-items:center;gap:9px;font-size:21px;font-weight:800;letter-spacing:-.01em}header .brand img{border-radius:8px}header .w{max-width:1200px;padding:12px 28px}header nav a{padding:10px 0}footer a{display:inline-block;padding:6px 0}a:focus-visible,input:focus-visible{outline:3px solid #e9c79a;outline-offset:3px;border-radius:6px}main a:focus-visible,input:focus-visible{outline-color:var(--accent)}::selection{background:#e9c79a;color:#3b2414}
